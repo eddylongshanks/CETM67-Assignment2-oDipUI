@@ -9,7 +9,7 @@ from .helpers.providers import EnquiryProvider
 from requests import post
 import json
 
-ODIP_API_ENDPOINT = "http://ec2-18-168-225-13.eu-west-2.compute.amazonaws.com/send-enquiry"
+ODIP_API_ENDPOINT = "http://ec2-35-178-182-161.eu-west-2.compute.amazonaws.com/send-enquiry"
 LTVCALCULATOR_API_ENDPOINT = "https://eposdjjkpd.execute-api.eu-west-2.amazonaws.com/dev/ltv-calculator-v1"
 
 def customer_details(request):
